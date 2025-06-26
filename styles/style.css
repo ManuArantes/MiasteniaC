@@ -1,23 +1,23 @@
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
   margin: 0;
-  padding: 40px;
+  padding: 0;
 }
-.container {
-  background-color: white;
+header, nav, main {
   padding: 20px;
-  border-radius: 8px;
-  max-width: 600px;
-  margin: auto;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-button {
-  background-color: #6c63ff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 20px;
-  cursor: pointer;
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+nav ul li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: #6c63ff;
 }
